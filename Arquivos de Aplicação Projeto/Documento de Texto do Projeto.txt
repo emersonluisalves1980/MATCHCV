@@ -1,0 +1,41 @@
+O Que Criar:
+
+Uma aplicação web que compara um currículo com uma vaga e devolve uma versão ATS friendly desse currículo. ATS é o Application Tracking System, o sistema que ranqueia candidatos antes de qualquer pessoa do RH ler alguma coisa.
+O núcleo é curto e precisa funcionar:
+•A pessoa cola a descrição da vaga;
+•A pessoa cola o próprio currículo;
+•A aplicação mostra o match, as palavras-chave encontradas e as que faltam;
+•A aplicação gera a versão ajustada do currículo, pronta para exportar.
+Uma regra vale para a aplicação inteira: ela melhora como a pessoa se apresenta e nunca inventa experiência que a pessoa não tem. Bruno deixa isso escrito na própria interface, e vale trazer a ideia para a sua.
+
+Como Fazer:
+
+Não existe repositório base aqui. Você constrói do zero, e o caminho que o Expert mostra tem quatro passos:
+1.Escreva o mega prompt. Peça a uma IA generativa um prompt único, em Markdown, que descreva a aplicação inteira. Cite o design system shadcn/ui e as cores da sua paleta;
+2.Gere a primeira versão. Cole esse prompt no Lovable. O modo Build executa direto, e o modo Plan mostra a abordagem antes, para você discutir e ajustar;
+3.Refine o que veio. Selecione o elemento na tela e peça a mudança só nele, ou descreva a nova funcionalidade no chat. Foi assim que a exportação do currículo em PDF entrou;
+
+
+Comece pelo núcleo: login, dashboard e integrações vêm depois, se vierem.
+Ideias para Evoluir:
+•Exportar o currículo também em .docx, para a pessoa editar antes de enviar;
+•Guardar o histórico das análises em um banco de dados;
+•Criar login, com e-mail de confirmação pelo conector Resend;
+•Montar um dashboard que mostre a evolução do match entre as versões;
+•Especializar a saída em um nicho, como vagas de tecnologia ou primeiro emprego;
+•Preparar a aplicação para ser encontrada, com SEO e com GEO, a otimização para buscas dentro das IAs.
+
+Uma Ajuda durante o Caminho:
+
+
+Preciso criar no Lovable um app que compara um currículo
+com uma descrição de vaga e gera uma versão ATS friendly.
+
+Me ajude a escrever o mega prompt em Markdown, com as telas,
+o fluxo da análise e o design system.
+
+Importante: não quero uma resposta pronta para copiar.
+Quero entender o processo e construir a minha.
+
+
+
