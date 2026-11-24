@@ -1,4 +1,4 @@
-# MEGA PROMPT — MATCHCV | Plataforma Inteligente de Análise e Otimização de Currículos
+# MEGA PROMPT — MATCHCV | Plataforma Inteligente de Análise e Otimização de Currículos(https://pixel-perfect-replay-83082.lovable.app)
 
 ## 1. Visão geral do projeto
 
